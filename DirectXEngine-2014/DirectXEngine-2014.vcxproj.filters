@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{d065c110-2597-4137-b59d-a64be46dac98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DX11">
+      <UniqueIdentifier>{4b2884c9-794c-45e4-8e0b-600454d3c15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11">
+      <UniqueIdentifier>{2dad66f1-8063-44af-abe0-0813e5dc996a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{531bd3a1-4db0-473e-a029-db1a6d76ea60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{78d35226-ae00-4ec1-9d96-8aa6d7ffed3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound">
+      <UniqueIdentifier>{dcf47298-247d-427c-8374-31b6ffca8ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{e0466598-8d3c-43ae-89e5-b550afee2be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{45cecea6-176b-4493-a155-9f7ddd23403d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{957acdb4-c824-4a60-bd2c-2fd5672ab767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{c10fb667-68e1-439a-9281-2e8e04cfc415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{c672b3cd-1945-4818-bf75-1cfae1270593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DX11\Base">
+      <UniqueIdentifier>{65027aa4-518a-407f-8024-0c0c8552afe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DX11\Buffers">
+      <UniqueIdentifier>{bdabb5b1-89c7-4fdf-b6e5-8567f9b4aa1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DX11\Shaders">
+      <UniqueIdentifier>{481baac2-d22f-4d5b-86cb-fad315f8e6b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11\Base">
+      <UniqueIdentifier>{c4fc87e2-14ad-4d3e-a1ba-20fe89f978f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11\Shaders">
+      <UniqueIdentifier>{412d2abf-5200-4473-9365-8cbb532e9ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DX11\Vertex">
+      <UniqueIdentifier>{b122ad81-91c0-487e-96fd-493d64cebab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DX11\Vertex">
+      <UniqueIdentifier>{a5e49038-1d1e-4d9b-8482-99fe92964a5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportError.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtility.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EventPoller.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TestState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\DX11\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="InfidelShader.cpp">
+      <Filter>Source Files\DX11\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShader.cpp">
+      <Filter>Source Files\DX11\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMapShader.cpp">
+      <Filter>Source Files\DX11\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMap.cpp">
+      <Filter>Source Files\DX11\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>Source Files\DX11\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="MurikaVertex.cpp">
+      <Filter>Source Files\DX11\Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericVertex.cpp">
+      <Filter>Source Files\DX11\Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderResourceView.cpp">
+      <Filter>Source Files\DX11\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\DX11\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\DX11\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\DX11\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTargetView.cpp">
+      <Filter>Source Files\DX11\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler.cpp">
+      <Filter>Source Files\DX11\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TestShader.cpp">
+      <Filter>Source Files\DX11\Shaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Non-Copyable.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtility.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportError.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec3.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EventPoller.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TestState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\DX11\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>Header Files\DX11\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraBuffer.h">
+      <Filter>Header Files\DX11\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Header Files\DX11\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.h">
+      <Filter>Header Files\DX11\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\DX11\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>Header Files\DX11\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="InfidelShader.h">
+      <Filter>Header Files\DX11\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="WVPBuffer.h">
+      <Filter>Header Files\DX11\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMapShader.h">
+      <Filter>Header Files\DX11\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="LightBuffer.h">
+      <Filter>Header Files\DX11\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="MurikaVertex.h">
+      <Filter>Header Files\DX11\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMap.h">
+      <Filter>Header Files\DX11\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericVertex.h">
+      <Filter>Header Files\DX11\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\DX11\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Colour.h">
+      <Filter>Header Files\DX11\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTargetView.h">
+      <Filter>Header Files\DX11\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderResourceView.h">
+      <Filter>Header Files\DX11\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\DX11\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\DX11\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.h">
+      <Filter>Header Files\DX11\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TestShader.h">
+      <Filter>Header Files\DX11\Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SMPS.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SMVS.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SPSMPS.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SPSMVS.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TestHarnessVS.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TestHarnessPS.fx">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
